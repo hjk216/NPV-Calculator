@@ -1,0 +1,19 @@
+.auth_input {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+#register_div {
+    margin-left: 10px;
+    margin-right: 50%;
+}
+
+.auth_button {
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+#save_title {
+    margin-left: 10px;
+    margin-top: 50px;
+}
