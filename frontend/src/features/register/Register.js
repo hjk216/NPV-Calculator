@@ -20,7 +20,7 @@ export default function Register() {
         register({username: username, password: password})
         .unwrap()
         .then((payload) => {
-            setCookie('token', payload.token, {secure: true, sameSite: true, maxAge: 36000})
+            setCookie('token', payload.token, {secure: true, sameSite: true, expires: 36000})
             window.location.reload();
         })
     }
