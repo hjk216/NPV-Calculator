@@ -25,7 +25,7 @@ export default function Login() {
         login({username: username, password: password})
         .unwrap()
         .then((payload) => {
-            setCookie('token', payload.token, {secure: true, sameSite: true})
+            setCookie('token', payload.token)
             window.location.reload();
         })
     }
