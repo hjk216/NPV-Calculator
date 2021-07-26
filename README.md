@@ -9,3 +9,5 @@ This project is a net present value (NPV) calculator.  The user may input anywhe
 <br />
 
 ![Image Two of Application](image_two.png)
+
+<br />

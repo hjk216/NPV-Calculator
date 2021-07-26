@@ -36,5 +36,3 @@ export default function Register() {
         </div>
     )
 }
-
-//expires: new Date().setHours(today.getHours() + 10)}
