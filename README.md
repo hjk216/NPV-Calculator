@@ -22,8 +22,6 @@ Front-end tools used are React and Redux. The back-end is a series of APIs creat
 6. Unless changes are made, running "docker-compose up" will start the container and everything should work.
 7. If changes are made to the front-end, run "npm run dev" to update the bundle.
 
-<br />
-
 ### Preview
 
 <br />
