@@ -11,16 +11,18 @@ This project is a net present value (NPV) calculator.  NPV is used to determine 
 	- Token authentication is used to keep users logged in. Tokens are saved as a cookie.
 
 ### Technology Used
-Front-end tools used are React and Redux. The back-end is a series of APIs created with Django REST Framework.  Other tools used include PostgreSQL, Docker, Webpack.
+Front-end tools used are React and Redux. The back-end is a series of APIs created with Django REST Framework.  Other tools used include PostgreSQL, Docker, and Webpack.
 
 ### Installation
 1. Download directory.
 2. In directory, run "docker-compose up" in order to create database and start web container.
 3. In another window, use "docker ps" in order to obtain the container ID for your web container.
 4. Run "docker exec -it CONTAINER_ID bash -l" to enter the container.
-5. Run "python3 manage.py make migrations" and "python3 manage.py migrate" to formate the database.
+5. Run "python3 manage.py make migrations" and "python3 manage.py migrate" to format the database.
 6. Unless changes are made, running "docker-compose up" will start the container and everything should work.
 7. If changes are made to the front-end, run "npm run dev" to update the bundle.
+
+<br />
 
 ### Preview
 
